@@ -5,7 +5,7 @@ $(call inherit-product, device/motorola/umts_spyder/full_umts_spyder.mk)
 $(call inherit-product, vendor/liquid/config/common_phone.mk)
 
 # Inherit some common GSM stuff.
-$(call inherit-product, vendor/liquid/config/gsm.mk)
+$(call inherit-product, vendor/liquid/config/common_gsm.mk)
 
 # CM-specific init file for SafeStrap
 PRODUCT_COPY_FILES += \
