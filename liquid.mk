@@ -10,6 +10,9 @@ $(call inherit-product, vendor/liquid/config/common_phone.mk)
 # Inherit some common GSM stuff.
 $(call inherit-product, vendor/liquid/config/common_gsm.mk)
 
+# overlay for international dictionaries
+PRODUCT_PACKAGE_OVERLAYS += vendor/liquid/overlay/all_dictionaries
+
 #
 # Setup device specific product configuration.
 #
