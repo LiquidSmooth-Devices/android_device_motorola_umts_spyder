@@ -21,6 +21,6 @@
     "remote": "gh",
     "repository": "STS-Dev-Team/arm-eabi-4.4.3",
     "target_path": "prebuilts/gcc/linux-x86/arm/arm-eabi-4.4.3",
-    "revision": "cm-11.0"
+    "revision": "master"
   }
 ]
