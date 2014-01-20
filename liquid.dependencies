@@ -1,13 +1,26 @@
 [
   {
+    "remote": "ls",
     "repository": "android_device_motorola_omap4-common",
-    "target_path": "device/motorola/omap4-common"
-    "branch": "jb2"
+    "target_path": "device/motorola/omap4-common",
+    "revision": "kitkat"
   },
   {
+    "remote": "cm",
     "repository": "android_kernel_motorola_omap4-common",
-    "target_path": "kernel/motorola/omap4-common"
-    "branch": "cm-10.1"
+    "target_path": "kernel/motorola/omap4-common",
+    "revision": "cm-11.0"
+  },
+  {
+    "remote": "tm",
+    "repository": "proprietary_vendor_motorola",
+    "target_path": "vendor/motorola",
+    "revision": "cm-11.0"
+  },
+  {
+    "remote": "gh",
+    "repository": "STS-Dev-Team/arm-eabi-4.4.3",
+    "target_path": "prebuilts/gcc/linux-x86/arm/arm-eabi-4.4.3",
+    "revision": "cm-11.0"
   }
 ]
-
