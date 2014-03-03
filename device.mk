@@ -45,6 +45,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(DEVICE_FOLDER)/media_profiles.xml:system/etc/media_profiles.xml \
     $(DEVICE_FOLDER)/vold.fstab:system/etc/vold.fstab
+    
+# OTA ID
+PRODUCT_PROPERTY_OVERRIDES += \
+    otaupdater.otaid=liquidumtsspyder
 
 $(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
 $(call inherit-product, vendor/motorola/umts_spyder/umts_spyder-vendor.mk)
