@@ -1,6 +1,6 @@
 [
   {
-    "remote": "ls",
+    "remote": "lsd",
     "repository": "android_device_motorola_omap4-common",
     "target_path": "device/motorola/omap4-common",
     "revision": "kitkat"
