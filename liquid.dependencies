@@ -34,5 +34,11 @@
     "repository": "android_hardware_ti_wlan",
     "target_path": "hardware/ti/wlan",
     "revision": "cm-11.0"
+  },
+ {
+    "remote": "cm",
+    "repository": "android_hardware_ti_wpan",
+    "target_path": "hardware/ti/wpan",
+    "revision": "cm-11.0"
   }
 ]
