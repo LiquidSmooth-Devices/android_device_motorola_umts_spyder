@@ -12,10 +12,10 @@
     "revision": "cm-11.0"
   },
   {
-    "remote": "ls",
+    "remote": "tm",
     "repository": "proprietary_vendor_motorola",
     "target_path": "vendor/motorola",
-    "revision": "kitkat"
+    "revision": "cm-11.0"
   },
   {
     "remote": "gh",
