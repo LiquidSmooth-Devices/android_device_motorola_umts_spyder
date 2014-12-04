@@ -1,44 +1,20 @@
 [
   {
-    "remote": "lsd",
+    "remote": "cm",
     "repository": "android_device_motorola_omap4-common",
     "target_path": "device/motorola/omap4-common",
-    "revision": "kitkat"
+    "revision": "cm-12.0"
   },
   {
     "remote": "cm",
     "repository": "android_kernel_motorola_omap4-common",
     "target_path": "kernel/motorola/omap4-common",
-    "revision": "cm-11.0"
+    "revision": "cm-12.0"
   },
   {
     "remote": "tm",
     "repository": "proprietary_vendor_motorola",
     "target_path": "vendor/motorola",
-    "revision": "cm-11.0"
-  },
-  {
-    "remote": "gh",
-    "repository": "STS-Dev-Team/arm-eabi-4.4.3",
-    "target_path": "prebuilts/gcc/linux-x86/arm/arm-eabi-4.4.3",
-    "revision": "master"
-  },
-  {
-    "remote": "ls",
-    "repository": "android_hardware_ti_omap4xxx",
-    "target_path": "hardware/ti/omap4xxx",
-    "revision": "kitkat"
-  },
-  {
-    "remote": "cm",
-    "repository": "android_hardware_ti_wlan",
-    "target_path": "hardware/ti/wlan",
-    "revision": "cm-11.0"
-  },
- {
-    "remote": "cm",
-    "repository": "android_hardware_ti_wpan",
-    "target_path": "hardware/ti/wpan",
-    "revision": "cm-11.0"
+    "revision": "cm-12.0"
   }
 ]
